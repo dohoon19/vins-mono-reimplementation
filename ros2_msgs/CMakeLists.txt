@@ -1,0 +1,1 @@
+add_subdirectory(image_feature_extractor_ros2_msgs)

@@ -1,0 +1,24 @@
+image_feature_extractor:
+  ros__parameters:
+    feature_extraction:
+      max_feature_num: 10
+      quality_level: 0.01
+      min_distance: 1.0
+    outlier_rejection:
+      maximum_distance_threshold: 3.0
+    key_frame_threshold:
+      parallax_sum: 0.1
+      parallax_count: 100
+    camera:
+      fx: 458.654
+      fy: 457.296
+      cx: 367.215
+      cy: 248.375
+      skew_c: 0
+      k1: -0.28340811
+      k2: 0.07395907
+      k3: 0
+      p1: 0.00019359
+      p2: 1.76187114e-5
+      iteration_threshold: 1000
+      error_threshold: 0.00001

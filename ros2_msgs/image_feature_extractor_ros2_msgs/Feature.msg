@@ -1,0 +1,6 @@
+uint64 id
+uint64 tracking_count
+float32 x_on_image_plane
+float32 y_on_image_plane
+float32 x_on_normalized_plane
+float32 y_on_normalized_plane
